@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 5863400404719392470}
   - component: {fileID: 2173213836022063141}
   - component: {fileID: 1957814824846680928}
+  - component: {fileID: -1139527384492461806}
+  - component: {fileID: -282820080902812481}
   m_Layer: 0
   m_Name: Moon Monocrome
   m_TagString: Untagged
@@ -102,7 +104,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -209,3 +211,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyWhenActivated: 0
   healthChange: -1
+--- !u!114 &-1139527384492461806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3538615905849162677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9c4adaf25c56477b836b81ad48e3bdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointsWorth: 1
+--- !u!114 &-282820080902812481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3538615905849162677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8862ea7b10c84421c9485c36f04335a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToDestruction: 20
