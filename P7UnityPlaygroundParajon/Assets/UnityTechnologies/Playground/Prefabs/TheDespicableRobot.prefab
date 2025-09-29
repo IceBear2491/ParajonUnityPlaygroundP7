@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3326945569064828723}
   - component: {fileID: 993372167184979818}
   m_Layer: 0
-  m_Name: EvilAssRobot
+  m_Name: TheDespicableRobot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

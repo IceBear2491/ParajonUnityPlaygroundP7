@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4684404350217231547}
   - component: {fileID: 8805656873575538503}
   m_Layer: 0
-  m_Name: Robot (1)
+  m_Name: NotAsDespicableRobots
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
